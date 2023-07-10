@@ -3,8 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Cours JEE</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css"
+	href="<%= request.getServletContext().getContextPath() %>/static/css/index.css"/>
+	<title>Cours JEE</title>
 </head>
 <body>
 	Bienvenue ${nom}
